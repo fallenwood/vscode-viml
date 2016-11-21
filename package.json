@@ -1,12 +1,16 @@
 {
     "name": "vimL",
     "displayName": "vimL",
-    "description": "",
-    "version": "0.0.1",
+    "description": "VimL language syntax for vscode from textmate",
+    "version": "0.0.2",
     "publisher": "fallenwood",
     "engines": {
         "vscode": "^1.5.0"
     },
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/fallenwood/vscode-viml.git"
+	},
     "categories": [
         "Languages"
     ],
@@ -14,7 +18,11 @@
         "languages": [{
             "id": "viml",
             "aliases": ["VimL", "vimL", "viml"],
-            "extensions": [".vim .nvim"],
+            "extensions": [
+                ".vim",
+                ".nvim",
+                ".vimrc"
+            ],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
