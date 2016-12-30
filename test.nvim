@@ -35,3 +35,14 @@ iabbrev Exception Exception
 iabbrev Exception Exception
 iabbrev Exception Exception
 
+" Example of a function, should work fine
+function Rc (n)
+    echo a:n
+    if a:n == 1
+        return
+    elseif a:n%2 == 1
+        return Rc(a:n*3 + 1)
+    endif
+    return Rc(a:n/2)
+endfunction
+
