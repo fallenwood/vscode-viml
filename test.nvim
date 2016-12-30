@@ -1,0 +1,37 @@
+set nu
+color evening
+" We've changed our mind, and didn't clean up the file
+colorscheme elflord
+
+" Indentation stuff
+set ai
+set smarttab
+set expandtab
+set tabstop=4
+
+" General
+set ch=3
+
+" line length
+call matchadd('ColorColumn', '\%81v.\+', 100)
+
+" Mappings, mapleader and localmapleader might be candidates for special treatment
+let mapleader = "L"
+
+" Tricky highlighting... complex mapping (taken from learnvimscriptthehardway.com)
+nnoremap <leader>v" `>a"<esc>`<i"<esc>`>l
+vnoremap <leader>" v`>a"<esc>`<i"<esc>v`>l
+
+" vimrc mappings
+nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+nnoremap <leader>eh :split $MYVIMRC<cr>
+nnoremap <leader>se :source $MYVIMRC<cr>
+
+" Really, really useful abbreviations ;-P
+iabbrev exception exception
+iabbrev exception exception
+iabbrev exception exception
+iabbrev Exception Exception
+iabbrev Exception Exception
+iabbrev Exception Exception
+
