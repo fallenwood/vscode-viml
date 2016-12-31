@@ -247,7 +247,7 @@
 			<array>
 				<dict>
 					<key>match</key>
-					<string>\b(set(local|global)?|let|command|filetype|colorscheme|\w*map|syn|exe(c|cute)?|ec(ho|)?|au(tocmd|)?)\b</string>
+					<string>\b(set(local|global)?|let|highlight|command|call|filetype|color(scheme)?|\w*abbrev|\w*map|sy|syn(-list|tax)|exe(c|cute)?|ec(ho|)?|au(tocmd|)?)\b</string>
 					<key>name</key>
 					<string>support.function.viml</string>
 				</dict>
@@ -271,7 +271,7 @@
 			<array>
 				<dict>
 					<key>match</key>
-					<string>\b(am(enu|)?|(hl|inc)?search|[Bb]uf([Nn]ew[Ff]ile|[Rr]ead)?|[Ff]ile[Tt]ype)\b</string>
+					<string>\b(am(enu|)?|(hl|inc)?search|match|[Bb]uf([Nn]ew[Ff]ile|[Rr]ead)?|[Ff]ile[Tt]ype)\b</string>
 					<key>name</key>
 					<string>support.variable.viml</string>
 				</dict>
