@@ -12,6 +12,8 @@ VimL language syntax for vscode from [textmate](https://github.com/skammer/textm
 
 feel free for issues, forks and pull requests
 
+thanks for some improvements from [EVODelavega](https://github.com/EVODelavega "")
+
 ## License
 
 MIT
